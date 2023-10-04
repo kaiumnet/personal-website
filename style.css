@@ -1,6 +1,7 @@
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    padding: 20px;
 }
 
 h3{
@@ -9,6 +10,13 @@ h3{
 
 h2{
     font-size: 35px;
+
+}
+
+span{
+    color: deeppink;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 p{
@@ -16,7 +24,7 @@ p{
 }
 .link-button{
     text-decoration: none;
-    background-color: deeppink;
+    background-image: linear-gradient(45deg, #B33771, #FC427B);
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
@@ -24,10 +32,9 @@ p{
 }
 
 .half-area{
-    width: 40%;
+    width: 30%;
     float: left;
-    margin-left: 35px;
-    padding: 30px;
+    padding: 80px;
 }
 
 .half-area img{
@@ -40,6 +47,7 @@ p{
     background-image: url("images/header-bg.png");
     background-repeat: no-repeat;
     background-size: 1150px 700px;
+    text-align: left;
 
 }
 
@@ -77,10 +85,10 @@ footer{
     color: white;
     border-radius: 10px;
     height: 150px;
-    background-color: rgb(207, 9, 108);
+    background-image: linear-gradient(45deg, #B33771, #FC427B);
     text-align: center;
     padding: 20px;
-    margin: 20%;
+    margin: 150px 350px;
 }
 
 .bottom-area p{
