@@ -78,7 +78,7 @@ section{
 }
 
 .middle{
-    background-image: url("images/header-bg.png");
+    background-image: url("images/biography-bg.png");
     background-repeat: no-repeat;
     background-size: contain;
     display: flex;
@@ -86,18 +86,17 @@ section{
 }
 
 .latest{
-    background-image: url("images/header-bg.png");
+    background-image: url("images/latest-work-bg.png");
     background-repeat: no-repeat;
     background-size: contain;
     display: flex;
     text-align: center;
 }
-
 .latest img{
     width: 32%;
     align-items: center;
+    margin-top: 50px;
 }
-
 
 footer{
     background-image: url("images/footer-bg.png");
