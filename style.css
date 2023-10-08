@@ -6,14 +6,11 @@ body{
 h3{
     font-size: 25px;
     margin: 5px;
-
 }
 
 h2{
     font-size: 35px;
     margin: 5px;
-
-
 }
 
 span{
@@ -22,11 +19,12 @@ span{
     font-weight: bold;
 }
 
+
 p{
     color: dimgray;
-
-
 }
+
+
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(45deg, #B33771, #FC427B);
@@ -34,6 +32,7 @@ p{
     padding: 10px 20px;
     border-radius: 5px;
     font-weight: bold;
+    display: inline-block;
 }
 
 .top-area{
@@ -47,6 +46,7 @@ p{
 .half-area{
     width: 50%;
     padding: 15px;
+    margin: 10px;
 }
 
 .container{
@@ -56,7 +56,7 @@ p{
 
 .half-area img{
     width: 400px;
-   display: block;
+    display: block;
 }
 
 .image-wrapper{
@@ -90,14 +90,23 @@ section{
     background-repeat: no-repeat;
     background-size: contain;
     display: flex;
-    align-items: center;
-}
-.latest img{
-    float: inherit;
-    width: 30%;
-    margin-left: 15px;
+    text-align: center;
 }
 
+.latest img{
+    width: 32%;
+    align-items: center;
+}
+
+
+footer{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
 
 .bottom-area{
     box-shadow: 10px 10px 60px;
@@ -106,18 +115,10 @@ section{
     height: 150px;
     background-image: linear-gradient(45deg, #B33771, #FC427B);
     text-align: center;
-    padding: 20px;
-    margin: 150px 350px;
+    padding: 10px;
+    margin: 100px 300px;
 }
 
 .bottom-area p{
 color: white;
-}
-
-
-
-footer{
-    background-image: url("images/footer-bg.png");
-    background-repeat: no-repeat;
-    text-align: center;
 }
