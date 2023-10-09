@@ -38,7 +38,7 @@ p{
 .top-area{
     background-image: url("images/header-bg.png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     display: flex;
     align-items: center;
 }
@@ -80,7 +80,7 @@ section{
 .middle{
     background-image: url("images/biography-bg.png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     display: flex;
     align-items: center;
 }
@@ -88,7 +88,7 @@ section{
 .latest{
     background-image: url("images/latest-work-bg.png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     display: flex;
     text-align: center;
 }
@@ -101,7 +101,7 @@ section{
 footer{
     background-image: url("images/footer-bg.png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     display: flex;
     align-items: center;
     text-align: center;
